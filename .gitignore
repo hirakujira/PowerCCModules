@@ -1,0 +1,10 @@
+.DS_Store
+.idea/*
+obj/*
+_/*
+/PCCReboot/obj/*
+/PCCRespring/obj/*
+/PCCSafemode/obj/*
+/PCCShutdown/obj/*
+.theos/*
+*/.theos/*
