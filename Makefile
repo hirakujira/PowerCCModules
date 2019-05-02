@@ -1,14 +1,15 @@
-ARCHS = armv7 armv7s arm64
+ARCHS = armv7 armv7s arm64 arm64e
 TARGET = iphone:clang::6.0
-include theos/makefiles/common.mk
 
 TWEAK_NAME = PowerCCModules
 SUBPROJECTS += PCCRespring
 SUBPROJECTS += PCCReboot
 SUBPROJECTS += PCCShutdown
 SUBPROJECTS += PCCSafeMode
-# SUBPROJECTS += PCCKillBackboard
 
+FINALPACKAGE = 1
+# SUBPROJECTS += PCCKillBackboard
+include theos/makefiles/common.mk
 include $(THEOS_MAKE_PATH)/aggregate.mk
 
 sync: stage

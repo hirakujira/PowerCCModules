@@ -1,0 +1,11 @@
+Package: tw.hiraku.powerccmodules
+Priority: optional
+Section: Addons
+Maintainer: Hiraku <dev@hiraku.tw>
+Architecture: iphoneos-arm
+Version: 0.2
+Description: Control center toggles about device power.
+Name: PowerCCModules
+Depends: mobilesubstrate, firmware(>=11.0)
+Author: Hiraku <dev@hiraku.tw>
+Depiction: A set of control center toggles which includes respring, reboot, shutdown and safe mode.

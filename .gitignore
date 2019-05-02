@@ -8,3 +8,4 @@ _/*
 /PCCShutdown/obj/*
 .theos/*
 */.theos/*
+packages/*

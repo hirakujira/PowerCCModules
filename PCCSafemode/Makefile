@@ -1,5 +1,5 @@
 GO_EASY_ON_ME=1
-ARCHS = armv7 arm64
+ARCHS = armv7 arm64 arm64e
 TARGET = iphone:clang::
 include ../theos/makefiles/common.mk
 
