@@ -8,6 +8,4 @@ declare -a cydia
     else
         echo "Please respring your device."
     fi
-
-
 fi

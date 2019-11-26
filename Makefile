@@ -1,5 +1,7 @@
-ARCHS = armv7 armv7s arm64 arm64e
-TARGET = iphone:clang::6.0
+ARCHS = arm64 arm64e
+TARGET = iphone:clang::11.0
+SYSROOT = /opt/theos/sdks/iPhoneOS11.2.sdk
+SDKVERSION = 11.2
 
 TWEAK_NAME = PowerCCModules
 SUBPROJECTS += PCCRespring
@@ -8,7 +10,7 @@ SUBPROJECTS += PCCShutdown
 SUBPROJECTS += PCCSafeMode
 
 FINALPACKAGE = 1
-# SUBPROJECTS += PCCKillBackboard
+
 include theos/makefiles/common.mk
 include $(THEOS_MAKE_PATH)/aggregate.mk
 
